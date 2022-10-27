@@ -2,7 +2,7 @@ package thaylanvinicius.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;    
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -17,16 +17,17 @@ public class Genero {
     public int getId() {
         return this.id;
     }
-
+    
     public void setId(int id) {
         this.id = id;
     }
 
-    public String getnome() {
-        return this.nome;   
+    public String getNome() {
+        return this.nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 }
+
